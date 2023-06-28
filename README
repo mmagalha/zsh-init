@@ -1,0 +1,6 @@
+## Init Linux setup Basic install
+
+``` bash
+sh sh -c "$(curl -fsSL https://raw.githubusercontent.com/mmagalha/zsh-init/main/init.sh)
+
+```

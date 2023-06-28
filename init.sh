@@ -1,6 +1,8 @@
 #!/bin/bash
 
-sudo apt install curl -y
+echo "Install basic packages"
+
+sudo apt install -y aria2 git wget curl zsh fzf
 
 echo "Add Sublime Repo"
 
@@ -23,4 +25,7 @@ echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microso
 
 sudo apt-get update
 
-sudo apt-get install sublime-text kubectl helm code -y
+sudo apt-get install  sublime-text kubectl helm code -y
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
