@@ -28,7 +28,7 @@ sudo apt-get update
 sudo apt-get install  sublime-text kubectl helm code -y
 
 
-rm -r /home/mmagalha/.oh-my-zsh
+rm -rf ~/.oh-my-zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
