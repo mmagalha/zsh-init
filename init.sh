@@ -32,4 +32,6 @@ rm -r /home/mmagalha/.oh-my-zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-curl 
+curl -fsSL https://raw.githubusercontent.com/mmagalha/zsh-init/main/.zshrc > ~/.zshrc
+
+source ~/.zshrc
